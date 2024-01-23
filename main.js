@@ -51,7 +51,7 @@ function deductTokens(user, amount) {
 
     return !overspent;
 }
-http://localhost:8000/api/admin/data?key=james&adminKey=test&tokens=10
+
 app.post("/api/complete", function(request, response) {
     if (typeof(request.body.prompt) != "string" || request.body.prompt.trim() == "") {
         response.status(400);
